@@ -2,9 +2,9 @@
 
 # Dissecting learning and forgetting in language model finetuning
 
-This repo provides code for finetuning language models on [pubmed](https://huggingface.co/datasets/pubmed) and evaluating models on corpus such as [pubmed_derived](https://huggingface.co/datasets/pixel-coping/pubmed_derived).
+This repo provides code for finetuning language models on [pubmed](https://huggingface.co/datasets/pubmed) and evaluating models on corpus such as [pubmed_derived](https://huggingface.co/datasets/xiaozeroone/pubmed_derived).
 
-The following commands are used to produce result in the [paper](link pending)
+The following commands are used to produce result in the [paper](https://openreview.net/forum?id=tmsqb6WpLz)
 
 Training (on 8 A100 80GB GPUs)
 ```
@@ -19,5 +19,12 @@ Hyperparameters, models and training/evaluation datasets are specified using con
 
 ## Citation
 ```
-pending
+@inproceedings{
+  zhang2024dissecting,
+  title={Dissecting learning and forgetting in language model finetuning},
+  author={Xiao Zhang and Ji Wu},
+  booktitle={The Twelfth International Conference on Learning Representations},
+  year={2024},
+  url={https://openreview.net/forum?id=tmsqb6WpLz}
+}
 ```
